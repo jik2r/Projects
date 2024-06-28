@@ -67,7 +67,7 @@
 /* Style for Home Section */
 .home {
     display: flex;
-    background: url("banner2.jpg") no-repeat center;
+    background: url("images/banner2.jpg") no-repeat center;
     height: 100vh;
     color: red;
     min-height: 500px;
@@ -147,3 +147,125 @@ section {
 .about .about-content .right {
     width: 55%;
 }
+
+.about .about-content .right .text {
+    margin-bottom: 18px;
+}
+
+.about .about-content .right p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+/* Styles for Media Section */
+.media .title {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+.media {
+    color: black;
+    background: tomato;
+}
+
+.media .media-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.media .media-content .card {
+    width: calc(33% - 20px);
+    color: black;
+    background: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px;
+}
+
+.media .media-content .card:hover {
+    background: aqua;
+}
+
+.media .media-content .card .box {
+    transition: all 0.3s ease;
+}
+
+.media .media-content .card .box:hover {
+    transform: scale(1.05);
+}
+
+.media .media-content .card img {
+    height: 75px;
+    width: 75px;
+}
+
+.media .media-content .text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+.media .media-content p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+}
+
+.podcast .title {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+.podcast {
+    color: black;
+    background: tomato;
+}
+ 
+.podcast p {
+    color: white;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+}    
+.video-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .video {
+            flex: 1 1 30%;
+            margin: 10px;
+        }
+        iframe {
+            width: 100%;
+            height: 315px;
+        }
+.events .title {
+    font-family: "Montserrat", sans-serif;
+    color: tomato;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+
+.events p {
+    color: tomato;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+}
+.fb-posts-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .fb-post {
+            margin: 10px;
+            flex: 1 1 30%;
+        }

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mactan Cathedral Of Faith</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="js/jquery-3.5.1.js"></script>
 </head>
 <body>
     <nav class="navbar">
@@ -12,11 +13,14 @@
             <div class="logo"><a href="#">Mactan Cathedral Of<span> Faith</span></a></div>
             <ul class="menu">
                 <li><a href="#about">About</a></li>
-                <li><a href="#media">Our Pastors</a></li>
+                <li><a href="#pastors">Our Pastors</a></li>
                 <li><a href="#events">Events</a></li>
                 <li><a href="#podcast">Media</a></li>
-                <li><a href="#give">Give</a></li>
+                <li><a href="#connect">Connect</a></li>
             </ul>
+            <div class="menu-btn">
+                <img src="images/menu-burger.png">
+            </div>
         </div>
     </nav>
 
@@ -27,7 +31,7 @@
                 <div class="text-1">A family where you can</div>
                 <div class="text-2">Belong, Believe</div>
                 <div class="text-3">& Become.</div>
-                <a href="#contact">Learn More</a>
+                <a href="https://www.facebook.com/mcofchurch" target="blank">Learn More</a>
             </div>
         </div>
     </section>
@@ -38,40 +42,40 @@
             <h1 class="title">About</h1>
             <div class="about-content">
                 <div class="column left">
-                    <img src="profile-2.jpeg" alt="Man with mic">
+                    <img src="images/profile-2.jpeg" alt="Man with mic">
                 </div>
                 <div class="column right">
-                    <p><b>ESTABLISHED IN MACTAN ISLAND, PHILIPPINES</b>.
-                    <em>MCOF</em> is a faith-based church with the mission to <em>love God and love the people</em>. Here, you can meet people in a smaller setting we call faith-group and discover a deeper sense of connection to the church. We have faith-groups for all ages and life stages</p>
+                    <h2 class="text">ESTABLISHED IN MACTAN ISLAND, PHILIPPINES</h2>
+                    <p><strong>MCOF</strong> is a faith-based church with the mission to <em>love God and love the people</em>. Here, you can meet people in a smaller setting we call faith-group and discover a deeper sense of connection to the church. We have faith-groups for all ages and life stages</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Media Section -->
-    <section class="media" id="media">
+    <!-- Pastors Section -->
+    <section class="pastors" id="pastors">
         <div class="max-width">
             <h2 class="title"> Meet Our Pastors</h2>
-            <div class="media-content">
+            <div class="pastors-content">
                 <div class="card">
                     <div class="box">
-                    <img src="IanMargie.svg">
+                    <img src="images/IanMargie.svg">
                     <div class="text">Ptr. Ian & Ptra. Margie</div>
-            <p>We also provide Advertising Assistance just in case you need one as well as Web App Designs.</p>
+            <p>"United in ministry and love -a pastoral team dedicated to nurturing your spiritual journey"</p>
         </div>
         </div>
     <div class="card">
                     <div class="box">
-                        <img src="Natalie.svg">
+                        <img src="images/Natalie.svg">
                         <div class="text">Ptra. Natalie</div>
-        <p>We also provide Advertising Assistance just in case you need one as well as Web App Designs.</p>
+        <p>"Nurturing young hearts with love, faith, and compassion – a pastor devoted to our children."</p>
     </div>
     </div>
     <div class="card">
                     <div class="box">
-                        <img src="Adams.svg">
+                        <img src="images/Adams.svg">
                         <div class="text">Ptr. Adam</div>
-        <p>We also provide Advertising Assistance just in case you need one as well as Web App Designs.</p>
+        <p>"Let the harmony of faith and melody uplift your spirit with our music-loving pastor."</p>
     </div>
     </div>
     </div>
@@ -82,22 +86,20 @@
     <section class="events" id="events">
         <div class="max-width">
             <h3 class="title"> Events to Follow</h3>
-        <div class="events-container">
-      <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmcofchurch%2Fposts%2Fpfbid0mzdWWYaRnycCcXYJRMZUaUxjw4UmxwfvYQq4m4ztpojcTb7o3ri346BonqMkjitAl&show_text=true&width=500" width="500" height="660" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        <div class="events-content">
+      <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmcofchurch%2Fposts%2Fpfbid024EgqtsYyjfKqt6TkKD371WFKqDEFwgKQecQypyi82URndvhCE5UhqNoE7tDhHreCl&show_text=true&width=500" width="500" height="635" style="with: 100%; 340px; display: block; margin: 0 auto" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
     </div>
 
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0" nonce="xKkxQwvX"></script>
 
-            <p>IT'S SUNDAY!
-            Come experience the MCOF Worship.
-            Make a joyful noise to the Lord, all the earth! Serve the Lord with gladness! Come into his presence with singing! Psalm 100:1-2 😁</p>
+            <p>"One of the greatest values of mentors is the ability to see ahead what others cannot see and to help them navigate a course to their destination." — <strong>John C. Maxwell</strong></p>
         </div>
     </section>
 
     <!-- Podcast Section -->
     <section class="podcast" id="podcast">
         <div class="max-width">
-            <h3 class="title"> Watch These Videos</h3>
+            <h3 class="title"><a href="https://www.youtube.com/@MCOFChurch" target="blank">Watch Us on YouTube</a></h3>
             <div class="video-container">
             <div class="video">
                 <iframe src="https://www.youtube.com/embed/b34x7ozQFLg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -108,21 +110,95 @@
             <div class="video">
                 <iframe src="https://www.youtube.com/embed/pU4ACN7683o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <p>Our team expertise majors in web development using HTML, CSS, JavaScript, PHP, and MySQL which are the primary languages that power the internet.</p>
+            <p>Charisma will get the attention of men but
+Character will get the attention of God.</p>
         </div>
         </div>
     </section>
 
-    <!-- Give Section -->
-    <section class="give" id="give">
+    <!-- Connect Section -->
+    <section class="connect" id="connect">
         <div class="max-width">
-            <h4>Give</h4>
-            <p>Putting up a website is really hard these days. But don’t you worry, we got you covered. All we need is some information about your business and we'll get started right away.</p>
+            <h2 class="title">Connect with Us</h2>
+            <div class="connect-content">
+                <div class="column left">
+                    <div class="text">Get in Touch Today</div>
+            <p>Join us at the Mactan Cathedral of Faith and experience a community united in faith, love, and service.</p>
+            <div class="icons">
+                <div class="row">
+                    <img src="images/address-book-solid.svg" alt="Address book icon">
+                    <div class="info">
+                        <div class="head">Church</div>
+                            <div class="sub-title">Mactan Cathedral of Faith</div>
+                    </div>
+                    
+                </div>
+                <div class="row">
+                    <img src="images/map-marked-alt-solid.svg" alt="Map icon">
+                    <div class="info">
+                        <div class="head">Address</div>
+                        <div class="sub-title">Kapaping, Basak, Lapu-Lapu City, Philippines</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <img src="images/envelope-open-text-solid.svg" alt="Envelope icon">
+                    <div class="info">
+                        <div class="head">Email Us</div>
+                    <div class="sub-title">mactancathedraloffaith@gmail.com</div>
+                    </div>
+                </div>
+            </div>
         </div>
+        <div class="column right">
+                    <div class="text">Message Us</div>
+                    <form action="#">
+                        <div class="fields"> 
+                            <div class="field name">
+                                <input type="text" placeholder="Name" required>
+                            </div>
+                            <div class="field email">
+                                <input type="email" placeholder="Email" required="required">            
+                            </div>
+                        </div> 
+                        <div class="field">
+                            <input type="text" placeholder="Subject" required>
+                        </div>  
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" placeholder="Message"></textarea>
+                        </div>
+                        <div class="button">
+                        <button type="submit">Send Message</button>
+                        </div> 
+                    </form>
+                </div>
+            </div>
+        </div>        
     </section>
 
     <footer>
-        <p>Coded by: jik2r 2024</p>
+        <p>Developed by <span><a href="https://www.linkedin.com/in/hector-serania-07ba3148/" target="blank">jik2r</a></span> | &copy; 2024 All Rights Reserved</p>
     </footer>
+    <!-- Script for Media Autoplay on Hover -->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const videos = document.querySelectorAll('iframe');
+
+        videos.forEach(video => {
+            video.addEventListener('mouseenter', () => {
+                let src = video.src;
+                if (!src.includes('autoplay=1')) {
+                    src += src.includes('?') ? '&autoplay=1' : '?autoplay=1';
+                }
+                video.src = src;
+            });
+
+            video.addEventListener('mouseleave', () => {
+                let src = video.src;
+                video.src = src.replace('&autoplay=1', '').replace('?autoplay=1', '');
+            });
+        });
+    });
+</script>
+<script src="js/scripts.js"></script>
 </body>
 </html>
